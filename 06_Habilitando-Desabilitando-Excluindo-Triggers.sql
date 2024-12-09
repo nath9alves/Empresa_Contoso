@@ -1,8 +1,8 @@
--- M”DULO 23 - SQL SERVER - TRIGGERS DML
+-- M√ìDULO 23 - SQL SERVER - TRIGGERS DML
 
 
 /* AULA 08 - Habilitando, Desabilitando e Excluindo uma Trigger
-AlÈm de, podermos excluir uma TRIGGER DML, tambÈm temos a opÁ„o de apenas desabilit·-la. Desta forma, ela continua salva no banco de dados porÈm, deixa de ser disparada. Se porventura precisarmos, podemos habilit·-la novamente. */
+Al√©m de, podermos excluir uma TRIGGER DML, tamb√©m temos a op√ß√£o de apenas desabilit√°-la. Desta forma, ela continua salva no banco de dados por√©m, deixa de ser disparada. Se porventura precisarmos, podemos habilit√°-la novamente. */
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -38,9 +38,9 @@ DROP TRIGGER nome_da_trigger
 
 -- Desabilitando e Habilitando a Trigger DML tgControleRegistros
 
-DISABLE TRIGGER tgControleRegistros ON dCliente -- Desabilitando uma Trigger especÌfica
+DISABLE TRIGGER tgControleRegistros ON dCliente -- Desabilitando uma Trigger espec√≠fica
 
-ENABLE TRIGGER tgControleRegistros ON dCliente -- Habilitando uma Trigger especÌfica
+ENABLE TRIGGER tgControleRegistros ON dCliente -- Habilitando uma Trigger espec√≠fica
 
 ----------------------------------------------------------------------------------------------------------
 
